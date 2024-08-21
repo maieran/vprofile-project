@@ -14,6 +14,7 @@ pipeline {
         NEXUS_REPOSITORY = "vprofile-release"
 	    NEXUS_REPOGRP_ID    = "vprofile-grp-repo"
         //NEXUS_REPOGRP_ID    = "vprofile-maven-group"
+        //
         NEXUS_CREDENTIAL_ID = "nexuslogin"
         ARTVERSION = "${env.BUILD_ID}"
     }
